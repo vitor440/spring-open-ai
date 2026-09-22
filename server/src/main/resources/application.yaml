@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rag
+  datasource:
+    url: jdbc:postgresql://localhost:5435/vectordb
+    username: user
+    password: secret
+  ai:
+    openai:
+      api-key: ${OPEN-AI-KEY}
